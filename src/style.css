@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#terminal {
+    width: 90vw;
+    height: 90vh;
+    border-radius: 8px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.85);
+    box-shadow: 0 0 30px rgba(0, 255, 128, 0.3);
+    border: 1px solid rgba(0, 255, 128, 0.2);
+}
+
+.xterm {
+    padding: 10px;
+}
+
+.xterm-viewport::-webkit-scrollbar {
+    width: 8px;
+}
+
+.xterm-viewport::-webkit-scrollbar-track {
+    background: rgba(0, 255, 128, 0.1);
+}
+
+.xterm-viewport::-webkit-scrollbar-thumb {
+    background: rgba(0, 255, 128, 0.3);
+    border-radius: 4px;
+}
